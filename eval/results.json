@@ -1,0 +1,583 @@
+[
+ {
+  "question": "Quantos focos de queimada o Brasil teve em 2024?",
+  "passed": true,
+  "answer": "O Brasil registrou 278.299 focos de queimada entre 1º de janeiro e 31 de dezembro de 2024, segundo o INPE (satélite AQUA_M-T), sem avisos no resultado.",
+  "draft": "O Brasil registrou 278.299 focos de queimada entre 1º de janeiro e 31 de dezembro de 2024, segundo o INPE (satélite AQUA_M-T), sem avisos no resultado.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "since": "2024-01-01",
+     "until": "2024-12-31"
+    }
+   ]
+  ],
+  "seconds": 2.7
+ },
+ {
+  "question": "How many fire hotspots did Brazil have in 2010?",
+  "passed": true,
+  "answer": "Brazil had 319,383 INPE fire hotspots between 2010-01-01 and 2010-12-31, with no warnings reported.",
+  "draft": "Brazil had 319,383 INPE fire hotspots between 2010-01-01 and 2010-12-31, with no warnings reported.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "since": "2010-01-01",
+     "until": "2010-12-31"
+    }
+   ]
+  ],
+  "seconds": 2.2
+ },
+ {
+  "question": "Quantos focos em Goiás em setembro de 2026?",
+  "passed": true,
+  "answer": "Em setembro de 2026 (1 a 30 de setembro), o INPE detectou 431 focos de fogo em Goiás.",
+  "draft": "Em setembro de 2026 (1 a 30 de setembro), o INPE detectou 431 focos de fogo em Goiás.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "state": "Goiás",
+     "since": "2026-09-01",
+     "until": "2026-09-30"
+    }
+   ]
+  ],
+  "seconds": 2.3
+ },
+ {
+  "question": "Quantos focos no estado de GO em agosto de 2026?",
+  "passed": true,
+  "answer": "O INPE detectou 738 focos de fogo no estado de Goiás entre 1 e 31 de agosto de 2026.",
+  "draft": "O INPE detectou 738 focos de fogo no estado de Goiás entre 1 e 31 de agosto de 2026.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "state": "GO",
+     "since": "2026-08-01",
+     "until": "2026-08-31"
+    }
+   ]
+  ],
+  "seconds": 2.3
+ },
+ {
+  "question": "Quantos focos de calor São Paulo teve em 2024?",
+  "passed": true,
+  "answer": "Em 2024 (1º de janeiro a 31 de dezembro), o estado de São Paulo registrou 8.712 focos de calor; no município de São Paulo foram 8 focos. Dados do INPE (satélite AQUA_M-T), sem avisos.",
+  "draft": "Em 2024 (1º de janeiro a 31 de dezembro), o estado de São Paulo registrou 8.712 focos de calor; no município de São Paulo foram 8 focos. Dados do INPE (satélite AQUA_M-T), sem avisos.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "state": "São Paulo",
+     "since": "2024-01-01",
+     "until": "2024-12-31"
+    }
+   ],
+   [
+    "count_fires",
+    {
+     "city": "São Paulo",
+     "since": "2024-01-01",
+     "until": "2024-12-31"
+    }
+   ]
+  ],
+  "seconds": 2.8
+ },
+ {
+  "question": "Focos em SP em agosto de 2026?",
+  "passed": true,
+  "answer": "Em agosto de 2026 (1 a 31/08), o INPE detectou 171 focos de fogo no estado de São Paulo.",
+  "draft": "Em agosto de 2026 (1 a 31/08), o INPE detectou 171 focos de fogo no estado de São Paulo.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "state": "São Paulo",
+     "since": "2026-08-01",
+     "until": "2026-08-31"
+    }
+   ]
+  ],
+  "seconds": 2.7
+ },
+ {
+  "question": "How many hotspots in Brazil in September 2026?",
+  "passed": true,
+  "answer": "INPE detected 24,382 hotspots in Brazil between 1 and 30 September 2026 (reference satellite AQUA_M-T, no warnings).",
+  "draft": "INPE detected 24,382 hotspots in Brazil between 1 and 30 September 2026 (reference satellite AQUA_M-T, no warnings).",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "since": "2026-09-01",
+     "until": "2026-09-30"
+    }
+   ]
+  ],
+  "seconds": 2.3
+ },
+ {
+  "question": "Quantos focos o Brasil registrou em 2019?",
+  "passed": true,
+  "answer": "O Brasil registrou 197.632 focos de queimada em 2019 (1º de janeiro a 31 de dezembro de 2019), segundo o INPE.",
+  "draft": "O Brasil registrou 197.632 focos de queimada em 2019 (1º de janeiro a 31 de dezembro de 2019), segundo o INPE.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "since": "2019-01-01",
+     "until": "2019-12-31"
+    }
+   ]
+  ],
+  "seconds": 2.7
+ },
+ {
+  "question": "Quantos focos em 2007 no Brasil?",
+  "passed": true,
+  "answer": "Em 2007 (1º de janeiro a 31 de dezembro de 2007), o INPE detectou 393.915 focos de queimada no Brasil, segundo o satélite AQUA_M-T.",
+  "draft": "Em 2007 (1º de janeiro a 31 de dezembro de 2007), o INPE detectou 393.915 focos de queimada no Brasil, segundo o satélite AQUA_M-T.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "since": "2007-01-01",
+     "until": "2007-12-31"
+    }
+   ]
+  ],
+  "seconds": 2.0
+ },
+ {
+  "question": "Quantos focos houve no Mato Grosso em 2024?",
+  "passed": true,
+  "answer": "Em Mato Grosso, o INPE detectou 50.551 focos de fogo entre 1º de janeiro e 31 de dezembro de 2024.",
+  "draft": "Em Mato Grosso, o INPE detectou 50.551 focos de fogo entre 1º de janeiro e 31 de dezembro de 2024.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "state": "Mato Grosso",
+     "since": "2024-01-01",
+     "until": "2024-12-31"
+    }
+   ]
+  ],
+  "seconds": 2.7
+ },
+ {
+  "question": "Quantos focos no Pará em agosto de 2026?",
+  "passed": true,
+  "answer": "Em agosto de 2026 (1 a 31), o INPE detectou 3.962 focos de fogo no Pará.",
+  "draft": "Em agosto de 2026 (1 a 31), o INPE detectou 3.962 focos de fogo no Pará.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "state": "Pará",
+     "since": "2026-08-01",
+     "until": "2026-08-31"
+    }
+   ]
+  ],
+  "seconds": 2.3
+ },
+ {
+  "question": "Quantos focos no Cerrado em 2025?",
+  "passed": true,
+  "answer": "O INPE detectou 56.058 focos de incêndio no bioma Cerrado entre 1º de janeiro e 31 de dezembro de 2025.",
+  "draft": "O INPE detectou 56.058 focos de incêndio no bioma Cerrado entre 1º de janeiro e 31 de dezembro de 2025.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "biome": "Cerrado",
+     "since": "2025-01-01",
+     "until": "2025-12-31"
+    }
+   ]
+  ],
+  "seconds": 2.9
+ },
+ {
+  "question": "How many fires in the Amazon biome in 2024?",
+  "passed": true,
+  "answer": "INPE detected 140,346 fires in the Amazônia biome between 1 January and 31 December 2024 (satellite AQUA_M-T). No warnings were reported for this result.",
+  "draft": "INPE detected 140,346 fires in the Amazônia biome between 1 January and 31 December 2024 (satellite AQUA_M-T). No warnings were reported for this result.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "biome": "Amazon",
+     "since": "2024-01-01",
+     "until": "2024-12-31"
+    }
+   ],
+   [
+    "count_fires",
+    {
+     "biome": "Amazônia",
+     "since": "2024-01-01",
+     "until": "2024-12-31"
+    }
+   ]
+  ],
+  "seconds": 3.3
+ },
+ {
+  "question": "Quantos focos no Pantanal em 2020?",
+  "passed": true,
+  "answer": "O INPE detectou 22.116 focos de fogo no Pantanal entre 1º de janeiro e 31 de dezembro de 2020.",
+  "draft": "O INPE detectou 22.116 focos de fogo no Pantanal entre 1º de janeiro e 31 de dezembro de 2020.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "biome": "Pantanal",
+     "since": "2020-01-01",
+     "until": "2020-12-31"
+    }
+   ]
+  ],
+  "seconds": 2.3
+ },
+ {
+  "question": "Quantos focos Altamira, no Pará, teve em 2026 até agora?",
+  "passed": true,
+  "answer": "Altamira (PA) registrou 1.685 focos de incêndio entre 1º de janeiro e 11 de outubro de 2026, segundo o INPE. Atenção: os dados disponíveis vão só até 10 de outubro de 2026, então dias posteriores ainda não foram contabilizados.",
+  "draft": "Altamira (PA) registrou 1.685 focos de incêndio entre 1º de janeiro e 11 de outubro de 2026, segundo o INPE. Atenção: os dados disponíveis vão só até 10 de outubro de 2026, então dias posteriores ainda não foram contabilizados.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "city": "Altamira",
+     "state": "Pará",
+     "since": "2026-01-01",
+     "until": "2026-10-11"
+    }
+   ]
+  ],
+  "seconds": 2.6
+ },
+ {
+  "question": "Qual cidade teve mais focos no Brasil em 2025?",
+  "passed": true,
+  "answer": "Em 2025 (1º de janeiro a 31 de dezembro), a cidade com mais focos de queimada no Brasil foi Mirador, no Maranhão, com 1.193 focos detectados pelo INPE (satélite AQUA_M-T).",
+  "draft": "Em 2025 (1º de janeiro a 31 de dezembro), a cidade com mais focos de queimada no Brasil foi Mirador, no Maranhão, com 1.193 focos detectados pelo INPE (satélite AQUA_M-T).",
+  "rejected": false,
+  "calls": [
+   [
+    "top_cities",
+    {
+     "limit": 5,
+     "since": "2025-01-01",
+     "until": "2025-12-31"
+    }
+   ]
+  ],
+  "seconds": 2.3
+ },
+ {
+  "question": "Which city in Goiás had the most fires in 2026 so far?",
+  "passed": true,
+  "answer": "Niquelândia (Goiás) foi a cidade com mais incêndios em 2026 até agora: 110 detecções de 2026-01-01 a 2026-10-11. Atenção: os dados vão apenas até 2026-10-10, então os dias posteriores ainda não foram contados.",
+  "draft": "Niquelândia (Goiás) foi a cidade com mais incêndios em 2026 até agora: 110 detecções de 2026-01-01 a 2026-10-11. Atenção: os dados vão apenas até 2026-10-10, então os dias posteriores ainda não foram contados.",
+  "rejected": false,
+  "calls": [
+   [
+    "top_cities",
+    {
+     "state": "Goiás",
+     "since": "2026-01-01",
+     "until": "2026-10-11",
+     "limit": 5
+    }
+   ]
+  ],
+  "seconds": 2.8
+ },
+ {
+  "question": "Em 2024, qual município do Mato Grosso mais queimou?",
+  "passed": true,
+  "answer": "Em 2024 (1º de janeiro a 31 de dezembro), o município de Mato Grosso com mais focos de queimada detectados pelo INPE foi Cáceres, com 2.836 focos, seguido por Colniza (2.686) e Barão de Melgaço (2.022).",
+  "draft": "Em 2024 (1º de janeiro a 31 de dezembro), o município de Mato Grosso com mais focos de queimada detectados pelo INPE foi Cáceres, com 2.836 focos, seguido por Colniza (2.686) e Barão de Melgaço (2.022).",
+  "rejected": false,
+  "calls": [
+   [
+    "top_cities",
+    {
+     "state": "Mato Grosso",
+     "since": "2024-01-01",
+     "until": "2024-12-31",
+     "limit": 5
+    }
+   ]
+  ],
+  "seconds": 3.0
+ },
+ {
+  "question": "Qual município do Pantanal teve mais focos em 2020?",
+  "passed": true,
+  "answer": "Em 2020 (1º de janeiro a 31 de dezembro), o município do Pantanal com mais focos de calor detectados pelo INPE foi Corumbá (Mato Grosso do Sul), com 8.105 focos.",
+  "draft": "Em 2020 (1º de janeiro a 31 de dezembro), o município do Pantanal com mais focos de calor detectados pelo INPE foi Corumbá (Mato Grosso do Sul), com 8.105 focos.",
+  "rejected": false,
+  "calls": [
+   [
+    "top_cities",
+    {
+     "biome": "Pantanal",
+     "since": "2020-01-01",
+     "until": "2020-12-31",
+     "limit": 5
+    }
+   ]
+  ],
+  "seconds": 2.6
+ },
+ {
+  "question": "Goiás teve mais ou menos focos em setembro de 2026 do que em setembro de 2025?",
+  "passed": true,
+  "answer": "Goiás teve menos focos: 431 focos em setembro de 2026 (1–30/09/2026), contra 1.625 focos em setembro de 2025 — uma queda de 277% em relação ao período anterior (INPE, Programa Queimadas, satélite AQUA_M-T, sem avisos).",
+  "draft": "Goiás teve menos focos: 431 focos em setembro de 2026 (1–30/09/2026), contra 1.625 focos em setembro de 2025 — uma queda de 277% em relação ao período anterior (INPE, Programa Queimadas, satélite AQUA_M-T, sem avisos).",
+  "rejected": false,
+  "calls": [
+   [
+    "compare_periods",
+    {
+     "first_since": "2026-09-01",
+     "first_until": "2026-09-30",
+     "second_since": "2025-09-01",
+     "second_until": "2025-09-30",
+     "state": "Goiás"
+    }
+   ]
+  ],
+  "seconds": 3.7
+ },
+ {
+  "question": "Compare os focos do Mato Grosso em 2023 e em 2024.",
+  "passed": true,
+  "answer": "Em Mato Grosso, o INPE detectou 21.723 focos de 1º de janeiro a 31 de dezembro de 2023 e 50.551 focos no mesmo período de 2024, um aumento de 28.828 focos (+132,7%) — dados do satélite AQUA_M-T, sem avisos.",
+  "draft": "Em Mato Grosso, o INPE detectou 21.723 focos de 1º de janeiro a 31 de dezembro de 2023 e 50.551 focos no mesmo período de 2024, um aumento de 28.828 focos (+132,7%) — dados do satélite AQUA_M-T, sem avisos.",
+  "rejected": false,
+  "calls": [
+   [
+    "compare_periods",
+    {
+     "first_since": "2023-01-01",
+     "first_until": "2023-12-31",
+     "second_since": "2024-01-01",
+     "second_until": "2024-12-31",
+     "state": "Mato Grosso"
+    }
+   ]
+  ],
+  "seconds": 2.7
+ },
+ {
+  "question": "Did Pará have more fires in August 2026 than in August 2025?",
+  "passed": true,
+  "answer": "Yes — Pará had 3,962 fires in August 2026 versus 1,314 in August 2025, a rise of 201.5% (INPE, Programa Queimadas). No warnings were reported for this data.",
+  "draft": "Yes — Pará had 3,962 fires in August 2026 versus 1,314 in August 2025, a rise of 201.5% (INPE, Programa Queimadas). No warnings were reported for this data.",
+  "rejected": false,
+  "calls": [
+   [
+    "compare_periods",
+    {
+     "first_since": "2025-08-01",
+     "first_until": "2025-08-31",
+     "second_since": "2026-08-01",
+     "second_until": "2026-08-31",
+     "state": "Pará"
+    }
+   ]
+  ],
+  "seconds": 2.9
+ },
+ {
+  "question": "Brazil fire hotspots, 2024 against 2025?",
+  "passed": true,
+  "answer": "In Brazil as a whole, INPE recorded 278,299 fire hotspots in the full year 2024 versus 136,393 in the full year 2025 — a drop of 141,906 hotspots, or 51.0%; no warnings were attached to these figures.",
+  "draft": "In Brazil as a whole, INPE recorded 278,299 fire hotspots in the full year 2024 versus 136,393 in the full year 2025 — a drop of 141,906 hotspots, or 51.0%; no warnings were attached to these figures.",
+  "rejected": false,
+  "calls": [
+   [
+    "compare_periods",
+    {
+     "first_since": "2024-01-01",
+     "first_until": "2024-12-31",
+     "second_since": "2025-01-01",
+     "second_until": "2025-12-31"
+    }
+   ],
+   [
+    "count_fires",
+    {
+     "since": "2024-01-01",
+     "until": "2024-12-31"
+    }
+   ],
+   [
+    "count_fires",
+    {
+     "since": "2025-01-01",
+     "until": "2025-12-31"
+    }
+   ]
+  ],
+  "seconds": 3.1
+ },
+ {
+  "question": "Quantos focos num raio de 100 km do ponto -16.6869, -49.2648 de 1 de janeiro de 2026 até agora?",
+  "passed": true,
+  "answer": "Entre 1 de janeiro de 2026 e 11 de outubro de 2026, o INPE detectou 148 focos de fogo num raio de 100 km do ponto -16.6869, -49.2648 (região de Goiânia, GO). Atenção: os dados vão apenas até 2026-10-10, pelo que os dias seguintes ainda não estão contados.",
+  "draft": "Entre 1 de janeiro de 2026 e 11 de outubro de 2026, o INPE detectou 148 focos de fogo num raio de 100 km do ponto -16.6869, -49.2648 (região de Goiânia, GO). Atenção: os dados vão apenas até 2026-10-10, pelo que os dias seguintes ainda não estão contados.",
+  "rejected": false,
+  "calls": [
+   [
+    "fires_near",
+    {
+     "latitude": -16.6869,
+     "longitude": -49.2648,
+     "km": 100,
+     "since": "2026-01-01",
+     "until": "2026-10-11"
+    }
+   ]
+  ],
+  "seconds": 2.6
+ },
+ {
+  "question": "How many fires within 50 km of -15.7939, -47.8828 during 2025?",
+  "passed": true,
+  "answer": "INPE detected 311 fires within 50 km of -15.7939, -47.8828 (Brasília area) between 1 January and 31 December 2025. No warnings were reported.",
+  "draft": "INPE detected 311 fires within 50 km of -15.7939, -47.8828 (Brasília area) between 1 January and 31 December 2025. No warnings were reported.",
+  "rejected": false,
+  "calls": [
+   [
+    "fires_near",
+    {
+     "latitude": -15.7939,
+     "longitude": -47.8828,
+     "km": 50,
+     "since": "2025-01-01",
+     "until": "2025-12-31"
+    }
+   ]
+  ],
+  "seconds": 2.7
+ },
+ {
+  "question": "Quantos focos a 150 km de (-15.6014, -56.0979) em setembro de 2026?",
+  "passed": true,
+  "answer": "Entre 1 e 30 de setembro de 2026, o INPE detectou 18 focos de queimada num raio de 150 km do ponto (-15,6014, -56,0979).",
+  "draft": "Entre 1 e 30 de setembro de 2026, o INPE detectou 18 focos de queimada num raio de 150 km do ponto (-15,6014, -56,0979).",
+  "rejected": false,
+  "calls": [
+   [
+    "fires_near",
+    {
+     "latitude": -15.6014,
+     "longitude": -56.0979,
+     "km": 150,
+     "since": "2026-09-01",
+     "until": "2026-09-30"
+    }
+   ]
+  ],
+  "seconds": 2.8
+ },
+ {
+  "question": "Qual foi o dia com mais focos em Goiás em setembro de 2026, e quantos?",
+  "passed": true,
+  "answer": "O dia com mais focos em Goiás em setembro de 2026 foi 18 de setembro, com 95 focos.",
+  "draft": "O dia com mais focos em Goiás em setembro de 2026 foi 18 de setembro, com 95 focos.",
+  "rejected": false,
+  "calls": [
+   [
+    "daily_series",
+    {
+     "since": "2026-09-01",
+     "until": "2026-09-30",
+     "state": "Goiás"
+    }
+   ]
+  ],
+  "seconds": 2.8
+ },
+ {
+  "question": "Which day of August 2026 had the most fires in Brazil, and how many?",
+  "passed": true,
+  "answer": "O dia com mais focos em agosto de 2026 no Brasil foi 31 de agosto, com 1.268 focos (INPE, satélite AQUA_M-T).",
+  "draft": "O dia com mais focos em agosto de 2026 no Brasil foi 31 de agosto, com 1.268 focos (INPE, satélite AQUA_M-T).",
+  "rejected": false,
+  "calls": [
+   [
+    "daily_series",
+    {
+     "since": "2026-08-01",
+     "until": "2026-08-31"
+    }
+   ]
+  ],
+  "seconds": 2.4
+ },
+ {
+  "question": "Quantos hectares queimaram em Goiás em 2025?",
+  "passed": true,
+  "answer": "Não tenho dados de área queimada em hectares — as ferramentas só contam focos de fogo; em Goiás, o INPE registrou 4.878 focos entre 1º/01/2025 e 31/12/2025.",
+  "draft": "Não tenho dados de área queimada em hectares — as ferramentas só contam focos de fogo; em Goiás, o INPE registrou 4.878 focos entre 1º/01/2025 e 31/12/2025.",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "state": "Goiás",
+     "since": "2025-01-01",
+     "until": "2025-12-31"
+    }
+   ]
+  ],
+  "seconds": 3.0
+ },
+ {
+  "question": "Quantos focos em Goiaz em 2025?",
+  "passed": true,
+  "answer": "Em Goiás, o INPE detectou 4.878 focos de fogo entre 1º de janeiro e 31 de dezembro de 2025 (sem avisos nos dados).",
+  "draft": "Em Goiás, o INPE detectou 4.878 focos de fogo entre 1º de janeiro e 31 de dezembro de 2025 (sem avisos nos dados).",
+  "rejected": false,
+  "calls": [
+   [
+    "count_fires",
+    {
+     "state": "Goiás",
+     "since": "2025-01-01",
+     "until": "2025-12-31"
+    }
+   ]
+  ],
+  "seconds": 2.7
+ }
+]

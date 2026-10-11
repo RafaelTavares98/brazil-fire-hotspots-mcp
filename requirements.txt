@@ -1,0 +1,8 @@
+duckdb
+pandas
+httpx
+mcp>=2,<3
+fastapi
+uvicorn
+keyring
+pytest
